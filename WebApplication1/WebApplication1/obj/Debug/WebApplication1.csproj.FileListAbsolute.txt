@@ -197,3 +197,4 @@ D:\GitHub\MoneyTemplate\WebApplication1\WebApplication1\obj\Debug\WebApplication
 D:\GitHub\MoneyTemplate\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.CopyComplete
 D:\GitHub\MoneyTemplate\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
 D:\GitHub\MoneyTemplate\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+D:\GitHub\MoneyTemplate\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojAssemblyReference.cache

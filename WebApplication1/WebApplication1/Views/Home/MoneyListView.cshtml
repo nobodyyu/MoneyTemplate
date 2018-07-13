@@ -1,4 +1,8 @@
-﻿<div class="row">
+﻿@model IEnumerable<WebApplication1.Models.MyMoney>
+@{ 
+    var i = 1;
+}
+<div class="row">
     <div class="col-md-12">
         <table class="table table-bordered table-hover">
             <tr>
@@ -7,24 +11,16 @@
                 <th>日期</th>
                 <th>金額</th>
             </tr>
-            <tr>
-                <td>1</td>
-                <td>支出</td>
-                <td>2016-01-01</td>
-                <td>300</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>支出</td>
-                <td>2016-01-02</td>
-                <td>1,600</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>支出</td>
-                <td>2016-01-03</td>
-                <td>8,00</td>
-            </tr>
+            @foreach(var money in Model)
+            {
+                <tr>
+                    <td>@i</td>
+                    <td>@money.Cata</td>
+                    <td>@money.CreateDate.ToString("yyyy-MM-dd")</td>
+                    <td>@money.Amount</td>
+                </tr>
+                i++;
+            }
         </table>
     </div>
 </div>
