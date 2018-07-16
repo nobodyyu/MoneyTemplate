@@ -13,7 +13,7 @@ namespace WebApplication1.Controllers
         public ActionResult Index()
         {
            
-            var moneylist = new List<MyMoney>();
+            var moneylist = new List<MyMoneyViewModel>();
             var cata = "";
             Random rand = new Random((int)DateTime.Now.Ticks);
             for (int i = 0; i < 50; i++)
@@ -26,7 +26,7 @@ namespace WebApplication1.Controllers
                 {
                     cata = "支出";
                 }
-                moneylist.Add(new MyMoney { Cata = cata, CreateDate = new System.DateTime(2018, 6, 1).AddDays(+i), Amount = (rand.Next(1,100) * 100).ToString("#,#", CultureInfo.InvariantCulture) });
+                moneylist.Add(new MyMoneyViewModel { Cata = cata, CreateDate = new System.DateTime(2018, 6, 1).AddDays(+i), Amount = (rand.Next(1,100) * 100).ToString("#,#", CultureInfo.InvariantCulture) });
             }
             return View(moneylist);
         }

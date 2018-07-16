@@ -4,7 +4,7 @@ using System.Web;
 namespace WebApplication1.Models
 {
     
-    public class MyMoney
+    public class MyMoneyViewModel
     {
         public string Cata { get; set; }
         public DateTime CreateDate { get; set; }
