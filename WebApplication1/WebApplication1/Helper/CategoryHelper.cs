@@ -20,11 +20,11 @@ namespace WebApplication1.Helper
             switch (categoryyy)
             {
                 case 1:
-                    className = "danger";
+                    className = "primary";
                     categoryyyName = "收入";
                     break;
-                case 2:
-                    className = "primary";
+                case 0:
+                    className = "danger";
                     categoryyyName = "支出";
                     break;
                  default:

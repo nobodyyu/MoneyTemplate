@@ -1,4 +1,7 @@
-﻿@model IEnumerable<WebApplication1.Models.MyMoneyViewModel>
+﻿@using WebApplication1.Helper
+
+@model IEnumerable<WebApplication1.Models.MyMoneyViewModel>
+
 @{ 
     var i = 1;
 }
@@ -11,15 +14,17 @@
                 <th>日期</th>
                 <th>金額</th>
             </tr>
-            @foreach(var money in Model)
-            {
-                <tr>
-                    <td>@i</td>
-                    <td>@money.Cata</td>
-                    <td>@money.CreateDate.ToString("yyyy-MM-dd")</td>
-                    <td>@money.Amount</td>
-                </tr>
-                i++;
+            @{
+
+                foreach (var item in Model.Select((value, index) => new { index, value }))
+                {
+                    <tr>
+                        <td>@(item.index +1 )</td>
+                        <td>@Html.displayCategory(item.value.Categoryyy)</td>
+                        <td>@(item.value.Dateee)</td>
+                        <td>@item.value.Amounttt.ToString("N0")</td>
+                    </tr>
+                }
             }
         </table>
     </div>
