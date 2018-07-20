@@ -198,3 +198,8 @@ D:\GitHub\MoneyTemplate\WebApplication1\WebApplication1\obj\Debug\WebApplication
 D:\GitHub\MoneyTemplate\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
 D:\GitHub\MoneyTemplate\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
 D:\GitHub\MoneyTemplate\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojAssemblyReference.cache
+D:\GitHub\MoneyTemplate\WebApplication1\WebApplication1\bin\EntityFramework.dll
+D:\GitHub\MoneyTemplate\WebApplication1\WebApplication1\bin\EntityFramework.SqlServer.dll
+D:\GitHub\MoneyTemplate\WebApplication1\WebApplication1\bin\EntityFramework.xml
+D:\GitHub\MoneyTemplate\WebApplication1\WebApplication1\bin\EntityFramework.SqlServer.xml
+D:\GitHub\MoneyTemplate\WebApplication1\WebApplication1\bin\zh-Hans\EntityFramework.resources.dll

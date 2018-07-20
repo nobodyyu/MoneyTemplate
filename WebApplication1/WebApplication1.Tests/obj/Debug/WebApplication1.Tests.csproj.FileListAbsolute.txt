@@ -90,3 +90,6 @@ D:\GitHub\MoneyTemplate\WebApplication1\WebApplication1.Tests\obj\Debug\WebAppli
 D:\GitHub\MoneyTemplate\WebApplication1\WebApplication1.Tests\obj\Debug\WebApplication1.Tests.csproj.CopyComplete
 D:\GitHub\MoneyTemplate\WebApplication1\WebApplication1.Tests\obj\Debug\WebApplication1.Tests.dll
 D:\GitHub\MoneyTemplate\WebApplication1\WebApplication1.Tests\obj\Debug\WebApplication1.Tests.pdb
+D:\GitHub\MoneyTemplate\WebApplication1\WebApplication1.Tests\bin\Debug\EntityFramework.dll
+D:\GitHub\MoneyTemplate\WebApplication1\WebApplication1.Tests\bin\Debug\EntityFramework.xml
+D:\GitHub\MoneyTemplate\WebApplication1\WebApplication1.Tests\bin\Debug\zh-Hans\EntityFramework.resources.dll

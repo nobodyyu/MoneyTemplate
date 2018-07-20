@@ -6,9 +6,9 @@ namespace WebApplication1.Models
     
     public class MyMoneyViewModel
     {
-        public string Cata { get; set; }
-        public DateTime CreateDate { get; set; }
-        public string Amount { get; set; }
-        
+        public int Categoryyy { get; set; }
+        public DateTime Dateee { get; set; }
+        public int Amounttt { get; set; }
+        public String Remarkkk { get; set; }
     }
 }
