@@ -21,12 +21,34 @@ namespace WebApplication1.Controllers
 
         public ActionResult Index()
         {
+            
+            return View();
+        }
 
-            var moneyList = MyMoneyComponentViewModel.GetData();
+        [ChildActionOnly]
+        public ActionResult MoneyListAction(int? page)
+        {
+            var pageCnt = page ?? 0;
+            var pageRows = 10;
 
-           // ViewData["CategoryListItem"] = new SelectList(MyMoneyComponentViewModel.CategoryListItem, "value", "name", 0);
+            var result = MyMoneyComponentViewModel.GetData();
+                                                              
 
-            return View(moneyList);
+            return View(result);
+        }
+
+
+        [HttpPost]
+        public ActionResult Index([Bind(Include = "Categoryyy,Amounttt,Dateee,Remarkkk")]
+                                  MyMoneyViewModel booking)
+        {
+            if (ModelState.IsValid)
+            {
+                _MoneyService.Add(booking);
+                _MoneyService.Save();
+            }
+
+            return View();
         }
 
 

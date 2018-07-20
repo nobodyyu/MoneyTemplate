@@ -19,10 +19,10 @@
                 foreach (var item in Model.Select((value, index) => new { index, value }))
                 {
                     <tr>
-                        <td>@(item.index +1 )</td>
+                        <td>@(item.index + 1)</td>
                         <td>@Html.displayCategory(item.value.Categoryyy)</td>
-                        <td>@(item.value.Dateee)</td>
-                        <td>@item.value.Amounttt.ToString("N0")</td>
+                        <td>@(item.value.Dateee.ToString("yyyy-MM-dd"))</td>
+                        <td>@item.value.Amounttt.ToString("#.#")</td>
                     </tr>
                 }
             }

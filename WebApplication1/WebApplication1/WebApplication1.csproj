@@ -170,9 +170,12 @@
     <Compile Include="Service\MoneyService.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\SkillTreeHomework.mdf" />
+    <Content Include="App_Data\SkillTreeHomework.mdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="App_Data\SkillTreeHomework_log.ldf">
       <DependentUpon>SkillTreeHomework.mdf</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -210,7 +213,7 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Home\MoneyListView.cshtml" />
+    <Content Include="Views\Home\MoneyListAction.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
