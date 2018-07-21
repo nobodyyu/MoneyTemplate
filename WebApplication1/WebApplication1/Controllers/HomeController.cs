@@ -24,15 +24,22 @@ namespace WebApplication1.Controllers
             
             return View();
         }
-
-        [ChildActionOnly]
-        public ActionResult MoneyListAction(int? page)
+        
+        public ActionResult MoneyListPartialView()
         {
-            var pageCnt = page ?? 0;
-            var pageRows = 10;
+            //int? page;
+            //Response.Write("AAA");
 
-            var result = MyMoneyComponentViewModel.GetData();
-                                                              
+            //var pageCnt = page ?? 0;
+            //var pageRows = 10;
+
+            //var myMoney = new MyMoneyComponentViewModel();
+
+            //var model = myMoney.GetData();
+
+            var result = _MoneyService.Lookup();
+
+            //Response.Write(model?.Count+"AAA");
 
             return View(result);
         }

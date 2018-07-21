@@ -10,10 +10,10 @@ namespace WebApplication1.Models.ViewModel
     {
         public static List<CategoryItem> CategoryListItem { get; set; }
 
-        static MyMoneyComponentViewModel()
-        {
-            CreateCategoryListItem();
-        }
+        //static MyMoneyComponentViewModel()
+        //{
+        //    CreateCategoryListItem();
+        //}
 
         private static void CreateCategoryListItem()
         {
@@ -25,7 +25,7 @@ namespace WebApplication1.Models.ViewModel
             };
         }
         
-        public static List<MyMoneyViewModel> GetData()
+        public List<MyMoneyViewModel> GetData()
         {
             MoneyService moneyService = new MoneyService();
 
@@ -38,7 +38,7 @@ namespace WebApplication1.Models.ViewModel
                                Categoryyy = data.Categoryyy,
                            });
 
-            return dbQuery as List<MyMoneyViewModel>;
+            return dbQuery.ToList();
         }
 
         public class CategoryItem

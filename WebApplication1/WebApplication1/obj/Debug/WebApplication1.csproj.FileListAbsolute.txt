@@ -104,7 +104,6 @@ D:\GitHub\MoneyTemplate\WebApplication1\WebApplication1\bin\roslyn\Microsoft.Cod
 D:\GitHub\MoneyTemplate\WebApplication1\WebApplication1\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
 D:\GitHub\MoneyTemplate\WebApplication1\WebApplication1\bin\roslyn\System.IO.Compression.dll
 D:\GitHub\MoneyTemplate\WebApplication1\WebApplication1\bin\roslyn\VBCSCompiler.exe
-D:\GitHub\MoneyTemplate\WebApplication1\WebApplication1\bin\roslyn\System.Collections.Immutable.dll
 D:\GitHub\MoneyTemplate\WebApplication1\WebApplication1\bin\roslyn\System.IO.FileSystem.dll
 D:\GitHub\MoneyTemplate\WebApplication1\WebApplication1\bin\roslyn\System.IO.FileSystem.Primitives.dll
 D:\GitHub\MoneyTemplate\WebApplication1\WebApplication1\bin\roslyn\System.Reflection.Metadata.dll
@@ -204,3 +203,4 @@ D:\GitHub\MoneyTemplate\WebApplication1\WebApplication1\obj\Debug\WebApplication
 D:\GitHub\MoneyTemplate\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.CopyComplete
 D:\GitHub\MoneyTemplate\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
 D:\GitHub\MoneyTemplate\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+D:\GitHub\MoneyTemplate\WebApplication1\WebApplication1\bin\roslyn\System.Collections.Immutable.dll
